@@ -1,0 +1,43 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 4153767 */
+  src: url('iconfont.woff2?t=1688575710274') format('woff2'),
+       url('iconfont.woff?t=1688575710274') format('woff'),
+       url('iconfont.ttf?t=1688575710274') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-search:before {
+  content: "\eb8c";
+}
+
+.icon-adjust:before {
+  content: "\eaec";
+}
+
+.icon-calendar-alt:before {
+  content: "\eb01";
+}
+
+.icon-chalkboard-teacher:before {
+  content: "\eb07";
+}
+
+.icon-home:before {
+  content: "\eb49";
+}
+
+.icon-question-circle:before {
+  content: "\eb80";
+}
+
+.icon-user:before {
+  content: "\ebbf";
+}
+
