@@ -12,16 +12,6 @@
   >
     {{ $themeConfig.author }}
   </h3>
-  <div class="num">
-    <div>
-      <h3>{{$recoPosts.length}}</h3>
-      <h6>{{$recoLocales.article}}</h6>
-    </div>
-    <div>
-      <h3>{{$tags.list.length}}</h3>
-      <h6>{{$recoLocales.tag}}</h6>
-    </div>
-  </div>
   <ul class="social-links">
     <li
       class="social-item"

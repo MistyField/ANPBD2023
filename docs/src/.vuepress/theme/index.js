@@ -19,7 +19,7 @@ module.exports = (options, ctx) => ({
   },
 
   plugins: [
-    '@vuepress-reco/back-to-top',
+    '@vuepress/back-to-top',
     '@vuepress-reco/pagation',
     '@vuepress-reco/comments',
     '@vuepress/active-header-links',
@@ -54,6 +54,11 @@ module.exports = (options, ctx) => ({
       ]
     }],
     'vuepress-plugin-smooth-scroll',
+    ['@vuepress/pwa', {
+        serviceWorker: true,
+        updatePopup: true
+      }
+    ],
     ['container', {
       type: 'tip',
       before: info => `<div class="custom-block tip"><p class="title">${info}</p>`,
