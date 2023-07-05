@@ -1,0 +1,15 @@
+pids
+logs
+docs/node_modules
+npm-debug.log
+coverage/
+run
+dist
+.DS_Store
+.nyc_output
+.basement
+config.local.js
+basement_dist
+.idea
+commitlint.config.js
+/node_modules/
