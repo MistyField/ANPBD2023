@@ -57,6 +57,9 @@ export default defineComponent({
 
 @media (max-width: $MQMobile)
   .sidebar
+    background var(--background-navbar-color)
+    backdrop-filter blur(12px)
+    -webkit-backdrop-filter blur(12px)
     .personal-info-wrapper
       display block
     .nav-links

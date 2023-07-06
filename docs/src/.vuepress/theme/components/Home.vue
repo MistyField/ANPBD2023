@@ -98,7 +98,7 @@ export default defineComponent({
       display: block;
       font-size: 3.5rem;
       font-weight: 600;
-      background-image: linear-gradient(to right,#5D67E8,#ef4444);
+      background-image: linear-gradient(to right, #00dbde 0%, #fc00ff 100%);
       background-clip: text;
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
@@ -112,7 +112,7 @@ export default defineComponent({
       font-size: 1.6rem;
       line-height: 1.3;
       font-weight: 600;
-      background-image: linear-gradient(to right,#5D67E8,#ef4444);
+      background-image: linear-gradient(to right, #00dbde 0%, #fc00ff 100%);
       background-clip: text;
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;

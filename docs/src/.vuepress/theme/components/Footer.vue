@@ -9,7 +9,7 @@
       <a :href="$themeConfig.recordLink || '#'">{{ $themeConfig.record }}</a>
     </span>
     <span>
-      <reco-icon icon="iconfont icon-copyright" />
+      <reco-icon icon="iconfont icon-copyright" style="color: rgba(255, 255, 255, .8)" />
       <p>
         2022 - Content on this site is licensed under a MIT license.
       </p>
@@ -53,17 +53,20 @@ export default defineComponent({
 <style lang="stylus" scoped>
   .footer-wrapper {
     border-top: 1px solid var(--border-color);
-    background-color: gray;
-    color: lighten($textColor, 25%);
+    background-image: linear-gradient(to left, #0acffe 0%, #495aff 100%);
     .sponsors{
       margin-top: 1rem;
     }
     a {
       font-size 14px
+      font-weight 600
+      color rgba(255, 255, 255, .8)
     }
     > p{
+      color rgba(255, 255, 255, .8)
       margin-left 1rem
       margin-top 0
+      margin-bottom 0
       >a{
       >img{
       max-height 5rem
@@ -74,6 +77,9 @@ export default defineComponent({
       margin-left 1rem
       display flex
       align-items baseline
+      > p{
+        color rgba(255, 255, 255, .8)
+      }
       > i {
         margin-right .5rem
       }
