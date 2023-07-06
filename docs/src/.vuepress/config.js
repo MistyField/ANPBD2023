@@ -23,6 +23,7 @@ module.exports = {
       { text: 'Organizer', link: '/organizer/', icon: 'iconfont icon-user' },
       { text: 'Speakers', link: '/speakers/', icon: 'iconfont icon-chalkboard-teacher'},
       { text: 'Agenda', link: '/agenda/', icon: 'iconfont icon-calendar-alt' },
+      { text: 'Sponsors', link: '/sponsors/', icon: 'iconfont icon-hands-helping' },
       { text: 'FAQ', link: '/faq/', icon: 'iconfont icon-question-circle' },
     ]
   }

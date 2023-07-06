@@ -52,7 +52,7 @@ export default defineComponent({
     const bgImageStyle = computed(() => {
       const url = instance.$frontmatter.bgImage
           ? instance.$withBase(instance.$frontmatter.bgImage)
-          : require("../images/bg.svg");
+          : require("../images/bg.jpg");
 
       const initBgImageStyle = {
         textAlign: "center",

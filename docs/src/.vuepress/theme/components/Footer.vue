@@ -53,6 +53,7 @@ export default defineComponent({
 <style lang="stylus" scoped>
   .footer-wrapper {
     border-top: 1px solid var(--border-color);
+    background-color: gray;
     color: lighten($textColor, 25%);
     .sponsors{
       margin-top: 1rem;
