@@ -1,29 +1,27 @@
 <template>
   <div class="footer-wrapper">
-    <span>
-      <reco-icon icon="reco-theme" />
-      <a target="blank" href="https://vuepress-theme-reco.recoluan.com">{{`vuepress-theme-reco@${version}`}}</a>
-    </span>
+    <p class="sponsors">
+      <a href="https://www.fudan.edu.cn/en/" target="_blank"><img src="/fudan_logo.svg"></a>
+      <a href="https://iobs.fudan.edu.cn/iobsenglish/"><img src="iobs_logo.png"></a>
+    </p>
     <span v-if="$themeConfig.record">
       <reco-icon icon="reco-beian" />
       <a :href="$themeConfig.recordLink || '#'">{{ $themeConfig.record }}</a>
     </span>
     <span>
-      <reco-icon icon="reco-copyright" />
-      <a>
-        <span v-if="$themeConfig.author">{{ $themeConfig.author }}</span>
-        &nbsp;&nbsp;
-        <span v-if="$themeConfig.startYear && $themeConfig.startYear != (new Date().getFullYear())">{{ $themeConfig.startYear }} - </span>
-        {{ new Date().getFullYear() }}
-      </a>
+      <reco-icon icon="iconfont icon-copyright" />
+      <p>
+        2022 - Content on this site is licensed under a MIT license.
+      </p>
     </span>
     <span v-show="showAccessNumber">
       <reco-icon icon="reco-eye" />
       <AccessNumber idVal="/" />
     </span>
-    <p class="cyber-security" v-if="$themeConfig.cyberSecurityRecord">
-      <img src="https://img.alicdn.com/tfs/TB1..50QpXXXXX7XpXXXXXXXXXX-40-40.png" alt="">
-      <a :href="$themeConfig.cyberSecurityLink || '#'">{{ $themeConfig.cyberSecurityRecord }}</a>
+    <p>
+      The repository used to create this website is available at
+      <a href="https://github.com/MistyField/ANPBD2023" target="_blank">github.com/MistyField/ANPBD2023</a>
+      . This page was designed and created by <a href="mailto:20301050198@fudan.edu.cn">Zhiyue Chen</a>
     </p>
     <Comments :isShowComments="false"/>
   </div>
@@ -54,15 +52,27 @@ export default defineComponent({
 
 <style lang="stylus" scoped>
   .footer-wrapper {
-    padding: 1.5rem 2.5rem;
     border-top: 1px solid var(--border-color);
-    text-align: center;
     color: lighten($textColor, 25%);
+    .sponsors{
+      margin-top: 1rem;
+    }
     a {
       font-size 14px
     }
+    > p{
+      margin-left 1rem
+      margin-top 0
+      >a{
+      >img{
+      max-height 5rem
+      }
+    }
+    }
     > span {
       margin-left 1rem
+      display flex
+      align-items baseline
       > i {
         margin-right .5rem
       }
@@ -84,7 +94,8 @@ export default defineComponent({
   .footer {
     text-align: left!important;
     > span {
-      display block
+      display flex
+      align-items baseline
       margin-left 0
       line-height 2rem
     }
