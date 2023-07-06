@@ -1,21 +1,9 @@
 <template>
   <div class="home">
-    <div class="hero">
-      <ModuleTransition>
-        <img
-          v-if="recoShowModule && $frontmatter.heroImage"
-          :style="heroImageStyle || {}"
-          :src="$withBase($frontmatter.heroImage)"
-          alt="hero">
-          <video :src="$withBase($frontmatter.bgvideo)"
-                 :style="bgVideoStyle || {}"
-                 muted loop autoplay></video>
-      </ModuleTransition>
+    <div class="hero" :style="bgImageStyle">
       <ModuleTransition delay="0.04">
         <h1
-          v-if="recoShowModule && $frontmatter.heroText !== null"
-          :style="{ marginTop: $frontmatter.heroImage ? '0px' : '140px'}"
-        >
+          v-if="recoShowModule && $frontmatter.heroText !== null">
           {{ $frontmatter.heroText || $title || 'vuePress-theme-reco' }}
         </h1>
       </ModuleTransition>
@@ -61,33 +49,59 @@ export default defineComponent({
       link: instance.$frontmatter.actionLink,
       text: instance.$frontmatter.actionText
     })
+    const bgImageStyle = computed(() => {
+      const url = instance.$frontmatter.bgImage
+          ? instance.$withBase(instance.$frontmatter.bgImage)
+          : require("../images/bg.svg");
+
+      const initBgImageStyle = {
+        textAlign: "center",
+        overflow: "hidden",
+        background: `url(${url}) center/cover no-repeat`,
+      };
+
+      const { bgImageStyle } = instance.$frontmatter;
+
+      return bgImageStyle
+          ? { ...initBgImageStyle, ...bgImageStyle }
+          : initBgImageStyle;
+    });
     const heroImageStyle = computed(() => instance.$frontmatter.heroImageStyle || {
       maxHeight: '200px',
       margin: '6rem auto 1.5rem'
     })
-    const bgVideoStyle = computed(() => instance.$frontmatter.heroImageStyle || {
-        width: '100%',
-        minHeight: '100vh',
-        filter: 'blur(4px)'
-    })
 
-    return { recoShowModule, actionLink, heroImageStyle,bgVideoStyle }
+    return { recoShowModule, actionLink, heroImageStyle,bgImageStyle }
   }
 })
 </script>
 
 <style lang="stylus">
 .home {
-  padding: $navbarHeight 2rem 0;
-  max-width: 960px;
+  padding: 0;
   margin: 0px auto;
-
+  max-width: 100vw;
+  p{
+    overflow: auto;
+  }
   .hero {
-    text-align: center;
+    position: relative;
+    box-sizing: border-box;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     h1 {
+      margin-top: 0;
       display: block;
-      font-size: 2.5rem;
-      color: var(--text-color);
+      font-size: 3.5rem;
+      font-weight: 600;
+      background-image: linear-gradient(to right,#5D67E8,#ef4444);
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
     }
 
     h1, .description, .action {
@@ -97,7 +111,11 @@ export default defineComponent({
     .description {
       font-size: 1.6rem;
       line-height: 1.3;
-      color: var(--text-color);
+      font-weight: 600;
+      background-image: linear-gradient(to right,#5D67E8,#ef4444);
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
     }
 
     .action-button {
@@ -106,7 +124,7 @@ export default defineComponent({
       color: #fff;
       background-color: $accentColor;
       padding: 0.2rem 1.2rem;
-      border-radius: $borderRadius
+      border-radius: $borderRadius;
       transition: background-color 0.1s ease;
       box-sizing: border-box;
       load-start()
@@ -132,7 +150,7 @@ export default defineComponent({
     flex-grow: 1;
     flex-basis: 30%;
     max-width: 30%;
-    transition: all .5s
+    transition: all .5s;
     color: var(--text-color);
     h2 {
       font-size: 1.6rem;
@@ -162,9 +180,6 @@ export default defineComponent({
 
 @media (max-width: $MQMobileNarrow) {
   .home {
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
-
     .hero {
       img {
         max-height: 210px;

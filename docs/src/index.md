@@ -1,7 +1,8 @@
 ---
 title: Home
 home: true
-bgvideo: background.mp4
+heroText: Adult Neural Plasticity and Brain Disorders
+tagline: 21-22 Sep, 2023, Shanghai - IOBS
 ---
 aaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaa
