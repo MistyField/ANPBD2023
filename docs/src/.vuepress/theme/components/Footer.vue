@@ -1,9 +1,9 @@
 <template>
   <div class="footer-wrapper">
-    <p class="sponsors">
+    <div class="sponsors">
       <a href="https://www.fudan.edu.cn/en/" target="_blank"><img src="/fudan_logo.svg"></a>
       <a href="https://iobs.fudan.edu.cn/iobsenglish/"><img src="iobs_logo.png"></a>
-    </p>
+    </div>
     <span v-if="$themeConfig.record">
       <reco-icon icon="reco-beian" />
       <a :href="$themeConfig.recordLink || '#'">{{ $themeConfig.record }}</a>
@@ -21,7 +21,7 @@
     <p>
       The repository used to create this website is available at
       <a href="https://github.com/MistyField/ANPBD2023" target="_blank">github.com/MistyField/ANPBD2023</a>
-      . This page was designed and created by <a href="mailto:20301050198@fudan.edu.cn">Zhiyue Chen</a>
+      . This page was designed and created by <a href="mailto:20301050198@fudan.edu.cn">Zhiyue Chen</a>.
     </p>
     <Comments :isShowComments="false"/>
   </div>
@@ -56,6 +56,16 @@ export default defineComponent({
     background-image: linear-gradient(to left, #0acffe 0%, #495aff 100%);
     .sponsors{
       margin-top: 1rem;
+      margin-left: 1rem;
+    }
+    > div{
+      text-after-overflow left
+      >a{
+        >img{
+          max-height 5rem
+          padding 0
+        }
+      }
     }
     a {
       font-size 14px
@@ -67,11 +77,6 @@ export default defineComponent({
       margin-left 1rem
       margin-top 0
       margin-bottom 0
-      >a{
-      >img{
-      max-height 5rem
-      }
-    }
     }
     > span {
       margin-left 1rem
