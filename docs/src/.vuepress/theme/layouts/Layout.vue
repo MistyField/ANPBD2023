@@ -8,6 +8,7 @@
       <Page v-else :key="path" :sidebar-items="sidebarItems"/>
     </div>
     <Footer v-if="$frontmatter.home" class="footer" />
+    <Footer v-if="$frontmatter.footer" class="footer" />
   </Common>
 </template>
 
@@ -23,7 +24,7 @@ import { useInstance } from '@theme/helpers/composable'
 import { ModuleTransition } from '@vuepress-reco/core/lib/components'
 
 export default defineComponent({
-  components: { HomeBlog, Home, Page, Common, Footer, ModuleTransition },
+  components: {HomeBlog, Home, Page, Common, Footer, ModuleTransition },
   setup (props, ctx) {
     const instance = useInstance()
 

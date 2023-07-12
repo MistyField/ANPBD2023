@@ -11,7 +11,7 @@
     <span>
       <reco-icon icon="iconfont icon-copyright" style="color: rgba(255, 255, 255, .8)" />
       <p>
-        2022 - Content on this site is licensed under a MIT license.
+        2023 - Content on this site is licensed under a MIT license.
       </p>
     </span>
     <span v-show="showAccessNumber">

@@ -2,7 +2,7 @@
   <main class="page" :style="pageStyle">
     <section v-show="recoShowModule">
       <div class="page-title">
-        <h1 class="title">{{$page.title}}</h1>
+        <h1 class="title" style="font-weight: 600;text-align: center;color: #7996b4;font-size: 4rem">{{$page.title}}</h1>
         <PageInfo :pageInfo="$page" :showAccessNumber="showAccessNumber"></PageInfo>
       </div>
       <!-- 这里使用 v-show，否则影响 SSR -->
@@ -228,7 +228,7 @@ function flatten (items, res) {
 
 .page
   position relative
-  padding-top 5rem
+  padding-top $navbarHeight
   padding-bottom 2rem
   padding-right 14rem
   display block

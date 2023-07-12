@@ -16,6 +16,7 @@ module.exports = {
   themeConfig: {
     logo: '/fudan_logo.svg',
     authorAvatar: '/fudan_logo.svg',
+    sidebar: true,
     subSidebar: 'auto',
     search: false,
     nav: [
