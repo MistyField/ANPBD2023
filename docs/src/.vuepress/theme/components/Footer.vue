@@ -53,6 +53,7 @@ export default defineComponent({
   .footer-wrapper {
     border-top: 1px solid var(--border-color);
     background-image: linear-gradient(to left, #0acffe 0%, #495aff 100%);
+    font-size: 0.8rem;
     .sponsors{
       margin-top: 1rem;
       margin-left: 1rem;

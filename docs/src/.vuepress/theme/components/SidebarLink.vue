@@ -69,7 +69,7 @@ function renderLink (h, to, text, active) {
   margin 0 1rem 0 0.6rem
 
 a.sidebar-link
-  font-size 1em
+  font-size 0.8rem
   font-weight 400
   display block!important
   color var(--text-color)

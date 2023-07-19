@@ -2,7 +2,9 @@
   <main class="page" :style="pageStyle">
     <section v-show="recoShowModule">
       <div class="page-title">
+        <img :src="$withBase('banner.png')" style="width: 100%">
         <h1 class="title" style="font-weight: 600;text-align: center;color: #7996b4;font-size: 4rem">{{$page.title}}</h1>
+        <hr>
         <PageInfo :pageInfo="$page" :showAccessNumber="showAccessNumber"></PageInfo>
       </div>
       <!-- 这里使用 v-show，否则影响 SSR -->
@@ -235,7 +237,7 @@ function flatten (items, res) {
   .page-title
     max-width: $contentWidth;
     margin: 0 auto;
-    padding: 1rem 2.5rem;
+    padding: 0 1rem;
     color var(--text-color)
   .theme-reco-content h2
     position relative
@@ -287,7 +289,7 @@ function flatten (items, res) {
   .page
     padding-right 0
     .page-title
-      padding: 0 1rem;
+      padding: 0;
     .page-edit
       .edit-link
         margin-bottom .5rem

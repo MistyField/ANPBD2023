@@ -7,9 +7,11 @@ sidebar: false
 ---
 # Overview
 
+::: tip
 Welcome to the official website of the 1st International Symposium for Adult Neural Plasticity and Brain Disorders. The symposium will be held in Shanghai, China on September 21 - 22, 2023.
+:::
 
- 
+
 
 Brain diseases, including neurodegenerative diseases and mental disorders, have become a major social problem affecting people's health. Currently, there lacks safe and effective clinical treatments for brain diseases, which requires more in-depth research on brain function, especially on the regulatory mechanism of neural plasticity, combining both basic and clinical studies.
 
@@ -20,8 +22,6 @@ The symposium will invite several Chinese and foreign scholars in the field of n
 1. Regulatory mechanism of adult neural plasticity;
 2. The role of neural plasticity in the pathogenesis of brain diseases; 
 3. Potential directions for the application of modulating adult neural plasticity to the treatment of brain diseases.
-
- 
 
 Participants will have the opportunity to exchange ideas and stimulate novel and collaborative ideas. We look forward to your participation!
 
