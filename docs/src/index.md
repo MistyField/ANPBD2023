@@ -33,3 +33,4 @@ Participants will have the opportunity to exchange ideas and stimulate novel and
 
 <a href='https://fcbs.fudan.edu.cn/' target="_blank"><img :src="$withBase('center_logo.png')" style='height:5rem;'></a>
 
+<a href='http://ircbc.ac.cn/welcome.do' target="_blank"><img :src="$withBase('ircbc_logo.png')" style='height:5rem;'></a>
