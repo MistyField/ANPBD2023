@@ -1,8 +1,8 @@
 @font-face {
   font-family: "iconfont"; /* Project id 4153767 */
-  src: url('iconfont.woff2?t=1688649129831') format('woff2'),
-       url('iconfont.woff?t=1688649129831') format('woff'),
-       url('iconfont.ttf?t=1688649129831') format('truetype');
+  src: url('iconfont.woff2?t=1689858467698') format('woff2'),
+       url('iconfont.woff?t=1689858467698') format('woff'),
+       url('iconfont.ttf?t=1689858467698') format('truetype');
 }
 
 .iconfont {
@@ -11,6 +11,10 @@
   font-style: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-chevron-circle-down:before {
+  content: "\eb0c";
 }
 
 .icon-hands-helping:before {

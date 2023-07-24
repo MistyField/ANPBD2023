@@ -4,7 +4,15 @@ title: Agenda
 footer: true
 ---
 
-::: details Day1
+::: tip
+
+**Location: CB1 Lecture Hall, Research Building 2, East Area of Fenglin Campus, Fudan University**
+
+**地点：复旦大学枫林校区东区科研二号楼CB1报告厅**
+
+:::
+
+## Day 1
 
 | Time                           | Event                                                        |
 | ------------------------------ | ------------------------------------------------------------ |
@@ -20,11 +28,7 @@ footer: true
 | <center>16:00 - 16:40</center> | <center>**Yadong  Li**<br/>Novel Approaches for Enhancing Cognitive-Emotional Disorders in Alzheimer's Disease</center> |
 | <center>16:40 – 17:20</center> | <center>**Qingzhong  Ren**<br/>Editor (Cell Reports)</center> |
 
-:::
-
-
-
-::: details Day2
+## Day 2
 
 | Time                           | Event                                                        |
 | ------------------------------ | ------------------------------------------------------------ |
@@ -40,4 +44,3 @@ footer: true
 | <center>15:20 - 16:00</center> | <center>**Xujun Duan**<br/>Mapping brain structural and functional differences in ASD: moving toward precision treatment</center> |
 | <center>16:00 - 16:40</center> | <center>**Christopher  Anacker**<br/>Hippocampal regulation of flexible behavior and stress vulnerability</center> |
 
-:::

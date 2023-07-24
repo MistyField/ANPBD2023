@@ -16,6 +16,7 @@
         <p class="action" v-if="recoShowModule && $frontmatter.actionText && $frontmatter.actionLink">
           <NavLink class="action-button" :item="actionLink"/>
         </p>
+        <span class="iconfont icon-chevron-circle-down" style="font-size: 1.2rem;color: rgba(255, 255, 255, .3);"></span>
       </ModuleTransition>
     </div>
 
