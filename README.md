@@ -30,4 +30,4 @@ yarn build
 
 ## Contact with me
 
-If you encounter any problems during use, please [contact me](maito:20301050198@fudan.edu.cn)!
+If you encounter any problems during use, please [contact me](mailto:20301050198@fudan.edu.cn)!
