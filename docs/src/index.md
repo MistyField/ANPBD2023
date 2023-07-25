@@ -27,10 +27,12 @@ Participants will have the opportunity to exchange ideas and stimulate novel and
 
 ## Co-organizer
 
-<a href='https://iobs.fudan.edu.cn/iobsenglish/' target="_blank"><img :src="$withBase('iobs_logo.png')" style='height:5rem;'></a>
-
 <a href='https://skmn.fudan.edu.cn/' target="_blank"><img :src="$withBase('skl_logo.png')" style='height:5rem;'></a>
 
 <a href='https://fcbs.fudan.edu.cn/' target="_blank"><img :src="$withBase('center_logo.png')" style='height:5rem;'></a>
+
+<a href='https://iobs.fudan.edu.cn/iobsenglish/' target="_blank"><img :src="$withBase('iobs_logo.png')" style='height:5rem;'></a>
+
+
 
 <a href='http://ircbc.ac.cn/welcome.do' target="_blank"><img :src="$withBase('ircbc_logo.png')" style='height:5rem;'></a>
