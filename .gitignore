@@ -13,3 +13,5 @@ basement_dist
 .idea
 commitlint.config.js
 /node_modules/
+template
+static
