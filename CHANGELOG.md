@@ -1,4 +1,4 @@
-#  (2023-07-24)
+#  (2023-07-25)
 
 
 ### Bug Fixes
@@ -9,7 +9,9 @@
 ### Features
 
 * add hero image and beautify navbar ([2b52325](https://github.com/MistyField/ANPBD2023/commit/2b5232587517038cb2670efcdaf283e854bf5715))
+* add pack.py ([ccc3e1a](https://github.com/MistyField/ANPBD2023/commit/ccc3e1aec922612a9b09f75a30ae5134500f7e6a))
 * add page settings ([b4e0808](https://github.com/MistyField/ANPBD2023/commit/b4e08080387b44ccd4589928b2800f8d738b5987))
+* beautify the home page ([1c17b9b](https://github.com/MistyField/ANPBD2023/commit/1c17b9b1f1a0a25e7d597c8fcc56b4094784f57a))
 * beautify the page ([c4fb3bf](https://github.com/MistyField/ANPBD2023/commit/c4fb3bf34d285ee15e8263aeb93e3a4a16384780))
 * beautify theme ([d49e864](https://github.com/MistyField/ANPBD2023/commit/d49e8649ada40da5af950ba5b62107d1db0c27e4))
 * beauty the web layout ([377bafd](https://github.com/MistyField/ANPBD2023/commit/377bafd84b54dd6837246e3a53da9e6897c7f758))
