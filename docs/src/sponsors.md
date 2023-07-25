@@ -25,3 +25,15 @@ footer: true
          </a>
     </center>
 </div>
+
+<div>
+    <center>
+        <a href='http://www.probecare.com/index.asp' target="_blank">
+            <img :src="$withBase('pbc_logo.jpg')" style='max-width:100%;'><br>
+                <small style='color:grey;'>
+                        PROBECARE SCIENTIFIC., CO.,LTD.
+                </small>
+         </a>
+    </center>
+</div>
+
