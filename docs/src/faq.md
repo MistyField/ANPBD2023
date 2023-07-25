@@ -35,6 +35,7 @@ You can make an advance reservation to enter the Fudan University campus by scan
         </small>
     </center>
 </div>
+If you have obtained access permission, please bring your ID card and swipe it to enter the school.
 
 :::
 
