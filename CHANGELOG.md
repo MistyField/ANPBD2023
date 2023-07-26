@@ -1,8 +1,9 @@
-#  (2023-07-25)
+#  (2023-07-26)
 
 
 ### Bug Fixes
 
+* fix bugs on safari and add app.py ([f1d7305](https://github.com/MistyField/ANPBD2023/commit/f1d73053acbb0c07cd0a77b06bd74b8ef18eaf93))
 * fix footer content ([7592f85](https://github.com/MistyField/ANPBD2023/commit/7592f8523b99353325dad5550edc9fbf754eea92))
 
 
