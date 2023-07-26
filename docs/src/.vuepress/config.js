@@ -21,11 +21,11 @@ module.exports = {
     search: false,
     nav: [
       { text: 'Home', link: '/', icon: 'iconfont icon-home' },
-      { text: 'Organizer', link: '/organizer/', icon: 'iconfont icon-user' },
-      { text: 'Speakers', link: '/speakers/', icon: 'iconfont icon-chalkboard-teacher'},
-      { text: 'Agenda', link: '/agenda/', icon: 'iconfont icon-calendar-alt' },
-      { text: 'Sponsors', link: '/sponsors/', icon: 'iconfont icon-hands-helping' },
-      { text: 'FAQ', link: '/faq/', icon: 'iconfont icon-question-circle' },
+      { text: 'Organizer', link: '/organizer.html', icon: 'iconfont icon-user' },
+      { text: 'Speakers', link: '/speakers.html', icon: 'iconfont icon-chalkboard-teacher'},
+      { text: 'Agenda', link: '/agenda.html', icon: 'iconfont icon-calendar-alt' },
+      { text: 'Sponsors', link: '/sponsors.html', icon: 'iconfont icon-hands-helping' },
+      { text: 'FAQ', link: '/faq.html', icon: 'iconfont icon-question-circle' },
     ]
   }
 }

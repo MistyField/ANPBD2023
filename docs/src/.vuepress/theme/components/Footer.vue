@@ -63,6 +63,7 @@ export default defineComponent({
       >a{
         >img{
           max-height 5rem
+          max-width 20rem
           padding 0
         }
       }
