@@ -80,7 +80,21 @@ Dr. Nashat Abumaria obtained his Ph.D. degree in neurosciences at the Internatio
     </center>
 </div>
 
+
 Dr. Chen Ran is a postdoctoral fellow in the lab of Prof. Stephen Liberles at the Department of Cell Biology, Harvard Medical School. His research is centered around unraveling the neural mechanisms linked to internal senses, including satiety, hunger, visceral pain, nausea, and hypoxia. With a diverse research background, including investigating learning and memory, psychiatric disease, and synaptic plasticity during his undergraduate studies at Tsinghua University, and fly circadian rhythm at Washington University in St. Louis, Dr. Ran pursued his PhD at Stanford University. There, he utilized in vivo spinal cord calcium imaging to investigate the coding of somatosensory stimuli. His research interests encompass cognitive and behavioral neuroscience, sensory and motor systems, and theory and computation and mainly focus on elucidating the molecular mechanisms underlying synapse development and function, as well as the logic of thermosensation coding. Dr. Ran has made notable contributions to the field, which have been published in renowned journals, such as Nature, Cell, Nat Neuroscience, Journal of neuroscience mong among others. 
+
+## Xujun Duan
+
+<div>
+    <center>
+        <img :src="$withBase('段旭君.png')" style='height:20rem;'><br>
+        	<small style='color:grey;'>
+                University of Electronic Science and Technology of China
+            </small>
+    </center>
+</div>
+
+Dr. Xujun Duan is the researcher and supervisor of Doctorate Candidates at the University of Electronic Science and Technology of China. She is a member of the Intelligent Health and Bioinformation Committee of the Chinese Society of Automation, a member of the Visual Cognition and Computing Committee of the Chinese Society of Image and Graphics, and a member of the Sichuan Neuroscience Society. Her main research area is about the brain image of autism, brain dynamic network imaging for autism, multimodal fusion and brain plasticity imaging. She established the autism brain imaging platform of "intervention-evaluation-prediction" to provide imaging basis for autism intervention and carry out clinical applications. Her research results were published as the first/corresponding author in PNAS, Biological Psychiatry, Schizophrenia Bulletin, Cerebral Cortex, Human Brain Mapping, NeuroImage and other journals, SCI total citations more than 2000 times. she also presided over one National Natural Science Foundation Youth Fund and two surface projects, one Sichuan Science and Technology Plan surface project, participated in key projects of National Natural Science Foundation (ranked 2nd), and won the first prize of Natural Science and Technology Progress Award of Sichuan Province in 2017 (ranked 5th).
 
 ## Yatu Guo
 
@@ -184,4 +198,4 @@ Dr. Yelin Chen is a professor, Ph.D. supervisor in Interdisciplinary Research Ce
     </center>
 </div>
 
-Dr. Kaiwen He is a professor, Ph.D. supervisor in Interdisciplinary Research Center on Biology and Chemistry (IRCBC). She graduated with a bachelor degree in Tsinghua University in 2003, and received Ph.D. degree in Neuroscience in 2009 in the University of Maryland College Park. After postdoctoral training at the Johns Hopkins University, she joined the IRCBC since 2015.Her main research interests include the role of sleep and rhythm in the regulation of neurological function and the mechanisms of regulation; the interrelationship between sleep disorders and neurodegenerative diseases; the early pathogenesis of neurodegenerative diseases. She has published nearly 20 research papers in Nature Neuroscience, Neuron, Brain, EMBOJ, PNAS and other internationally renowned journals. Her group has undertaken four research projects in Shanghai and the National Science Foundation of China.
+Dr. Kaiwen He is a professor, Ph.D. supervisor in Interdisciplinary Research Center on Biology and Chemistry (IRCBC). She graduated with a bachelor degree in Tsinghua University in 2003, and received Ph.D. degree in Neuroscience in 2009 in the University of Maryland College Park. After postdoctoral training at the Johns Hopkins University, she joined the IRCBC since 2015. Her main research interests include the role of sleep and rhythm in the regulation of neurological function and the mechanisms of regulation; the interrelationship between sleep disorders and neurodegenerative diseases; the early pathogenesis of neurodegenerative diseases. She has published nearly 20 research papers in Nature Neuroscience, Neuron, Brain, EMBOJ, PNAS and other internationally renowned journals. Her group has undertaken four research projects in Shanghai and the National Science Foundation of China.

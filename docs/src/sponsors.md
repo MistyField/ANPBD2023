@@ -13,7 +13,11 @@ footer: true
                 </small>
          </a>
     </center>
-</div>
+</div><br>
+
+
+
+
 
 <div>
     <center>
@@ -24,7 +28,13 @@ footer: true
                 </small>
          </a>
     </center>
-</div>
+</div><br>
+
+
+
+
+
+
 
 <div>
     <center>
@@ -35,5 +45,20 @@ footer: true
                 </small>
          </a>
     </center>
-</div>
+</div><br>
 
+
+
+
+
+
+<div>
+    <center>
+        <a href='https://www.kedoubc.com/en/' target="_blank">
+            <img :src="$withBase('KedouBC_logo.svg')" style='max-width:100%;'><br>
+                <small style='color:grey;'>
+                        Kedou (Suzhou) Brain-computer Technology Co., Ltd
+                </small>
+         </a>
+    </center>
+</div><br>
