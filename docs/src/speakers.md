@@ -75,13 +75,14 @@ Dr. Nashat Abumaria obtained his Ph.D. degree in neurosciences at the Internatio
     <center>
         <img :src="$withBase('Chen-Ran.jpg')" style='height:20rem;'><br>
         	<small style='color:grey;'>
-                Department of Cell Biology, Harvard Medical School
+                Department of Neuroscience, Scripps Research
             </small>
     </center>
 </div>
 
 
-Dr. Chen Ran is a postdoctoral fellow in the lab of Prof. Stephen Liberles at the Department of Cell Biology, Harvard Medical School. His research is centered around unraveling the neural mechanisms linked to internal senses, including satiety, hunger, visceral pain, nausea, and hypoxia. With a diverse research background, including investigating learning and memory, psychiatric disease, and synaptic plasticity during his undergraduate studies at Tsinghua University, and fly circadian rhythm at Washington University in St. Louis, Dr. Ran pursued his PhD at Stanford University. There, he utilized in vivo spinal cord calcium imaging to investigate the coding of somatosensory stimuli. His research interests encompass cognitive and behavioral neuroscience, sensory and motor systems, and theory and computation and mainly focus on elucidating the molecular mechanisms underlying synapse development and function, as well as the logic of thermosensation coding. Dr. Ran has made notable contributions to the field, which have been published in renowned journals, such as Nature, Cell, Nat Neuroscience, Journal of neuroscience mong among others. 
+
+Dr. Chen Ran, an assistant Professor at Scripps Research, aims to reveal basic principles of how the brain encodes and processes information and shed light on the development of novel therapeutics for treating hypertension, obesity, diabetes, indigestion, eating disorders, pulmonary diseases, nausea, visceral pain, infection-induced sickness behaviors, and many others. Combining in vivo functional imaging, electrophysiological recordings, and mouse genetics, neuronal activity manipulation (optogenetics, chemogenetics), animal behavior, neural circuit tracing and others, He will unravel how the nervous system detects mechanical, chemical, and thermal stimuli from the periphery to synthesize our internal sensations, such as satiety, hunger, nausea, hypoxia, and visceral pain. Dr. Chen Ran graduated from Peking University with a bachelor's degree. From 2017 to 2023, he is a postdoctoral fellow in the lab of Prof. Stephen Liberles at the Department of Cell Biology, Harvard Medical School. Dr. Ran has made notable contributions to the field, which have been published in renowned journals, such as Nature, Cell, Nat Neuroscience, Journal of neuroscience mong among others. 
 
 ## Xujun Duan
 
