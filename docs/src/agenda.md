@@ -36,11 +36,11 @@ footer: true
 | <center>09:10 - 09:50</center> | <center>**Tabrez  Siddiqui**<br/>Mechanisms of Plasticity by Synapse Organizers</center> |
 | <center>09:50 - 10:20</center> | <center>Coffee break</center>                                |
 | <center>10:20 - 11:00</center> | <center>**Chen Ran**<br/>The coding of interoception in health and disease</center> |
-| <center>11:00 - 11:30</center> | <center>**Yu Gu**<br/>Ocular dominance plasticity in mouse  superior colliculus regulates its predatory behavior</center> |
-| <center>11:30 - 13:30</center> | <center>Lunch Break</center>                                 |
+| <center>11:00 - 11:40</center> | <center>**Tifei Yuan**<br/>Targeting cortical plasticity in drug  addiction</center> |
+| <center>11:40 - 13:30</center> | <center>Lunch Break</center>                                 |
 | <center>13:30 - 14:10</center> | <center>**Mohiuddin  Ahmad**<br/>Novel Lipid Regulators of Synaptic Transmission and Plasticity</center> |
-| <center>14:10 - 14:50</center> | <center>**Tifei Yuan**<br/>Targeting cortical plasticity in drug  addiction</center> |
+| <center>14:10 - 14:50</center> | <center>**Yu Gu**<br/>Ocular dominance plasticity in mouse  superior colliculus regulates its predatory behavior</center> |
 | <center>14:50 - 15:20</center> | <center>Coffee break</center>                                |
-| <center>15:20 - 16:00</center> | <center>**Xujun Duan**<br/>Mapping brain structural and functional differences in ASD: moving toward precision treatment</center> |
+| <center>15:20 - 16:00</center> | <center>**Xinyu Zhao**<br/>Behavioral time scale plasticity generates context-dependent place fields in the mouse hippocampus</center> |
 | <center>16:00 - 16:40</center> | <center>**Christopher  Anacker**<br/>Hippocampal regulation of flexible behavior and stress vulnerability</center> |
 

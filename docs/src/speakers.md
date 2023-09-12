@@ -84,18 +84,19 @@ Dr. Nashat Abumaria obtained his Ph.D. degree in neurosciences at the Internatio
 
 Dr. Chen Ran, an assistant Professor at Scripps Research, aims to reveal basic principles of how the brain encodes and processes information and shed light on the development of novel therapeutics for treating hypertension, obesity, diabetes, indigestion, eating disorders, pulmonary diseases, nausea, visceral pain, infection-induced sickness behaviors, and many others. Combining in vivo functional imaging, electrophysiological recordings, and mouse genetics, neuronal activity manipulation (optogenetics, chemogenetics), animal behavior, neural circuit tracing and others, He will unravel how the nervous system detects mechanical, chemical, and thermal stimuli from the periphery to synthesize our internal sensations, such as satiety, hunger, nausea, hypoxia, and visceral pain. Dr. Chen Ran graduated from Peking University with a bachelor's degree. From 2017 to 2023, he is a postdoctoral fellow in the lab of Prof. Stephen Liberles at the Department of Cell Biology, Harvard Medical School. Dr. Ran has made notable contributions to the field, which have been published in renowned journals, such as Nature, Cell, Nat Neuroscience, Journal of neuroscience mong among others. 
 
-## Xujun Duan
+## Xinyu Zhao
 
 <div>
     <center>
-        <img :src="$withBase('段旭君.png')" style='height:20rem;'><br>
+        <img :src="$withBase('赵昕宇.jpg')" style='height:20rem;'><br>
         	<small style='color:grey;'>
-                University of Electronic Science and Technology of China
+                School of life science, Tsinghua University
             </small>
     </center>
 </div>
 
-Dr. Xujun Duan is the researcher and supervisor of Doctorate Candidates at the University of Electronic Science and Technology of China. She is a member of the Intelligent Health and Bioinformation Committee of the Chinese Society of Automation, a member of the Visual Cognition and Computing Committee of the Chinese Society of Image and Graphics, and a member of the Sichuan Neuroscience Society. Her main research area is about the brain image of autism, brain dynamic network imaging for autism, multimodal fusion and brain plasticity imaging. She established the autism brain imaging platform of "intervention-evaluation-prediction" to provide imaging basis for autism intervention and carry out clinical applications. Her research results were published as the first/corresponding author in PNAS, Biological Psychiatry, Schizophrenia Bulletin, Cerebral Cortex, Human Brain Mapping, NeuroImage and other journals, SCI total citations more than 2000 times. she also presided over one National Natural Science Foundation Youth Fund and two surface projects, one Sichuan Science and Technology Plan surface project, participated in key projects of National Natural Science Foundation (ranked 2nd), and won the first prize of Natural Science and Technology Progress Award of Sichuan Province in 2017 (ranked 5th).
+
+Dr. Xinyu Zhao is an assistant professor and doctoral supervisor at the Tsinghua University School of Life Sciences, the Tsinghua-IDG/McGovern Institute for Brain Research, and the Tsinghua-Peking Joint Center for Life Sciences. Having joined these institutions in 2022, he is spearheading research into the neural mechanisms of learning processes. Before his affiliation with Tsinghua, Dr. Zhao cultivated expertise in the neural mechanisms of vision and memory at Northwestern University and the Howard Hughes Medical Institute (HHMI) in the USA. His current research utilizes state-of-the-art technologies including electrophysiology, optical imaging, and virtual reality behavioral studies. Dr. Zhao's lab is focused on understanding the role of cellular-level computations like synaptic plasticity in neural circuit operations, and unraveling the algorithmic foundations of complex learning behaviors. Concurrently, they are developing neural network learning models combining computational neuroscience with artificial intelligence techniques. He has published several research papers in Nature Neuroscience, Neuron, Nature Communications, Journal of Neuroscience and other internationally journals.
 
 ## Yatu Guo
 
