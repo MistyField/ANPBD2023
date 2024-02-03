@@ -1,7 +1,7 @@
 <template>
   <div class="footer-wrapper">
     <div class="sponsors">
-      <a href="https://www.fudan.edu.cn/en/" target="_blank"><img src="/fudan_logo_rec.svg"></a>
+      <a href="https://www.fudan.edu.cn/en/" target="_blank"><img src="fudan_logo_rec.svg"></a>
     </div>
     <span v-if="$themeConfig.record">
       <reco-icon icon="reco-beian" />
