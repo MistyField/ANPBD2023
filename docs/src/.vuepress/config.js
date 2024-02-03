@@ -1,4 +1,5 @@
 module.exports = {
+  base: '/ANPBD2023/',
   title: 'ANPBD',
   theme: 'reco',
   head:[
